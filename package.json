@@ -1,0 +1,17 @@
+{
+  "name": "geolocator-ip",
+  "version": "0.1.0",
+  "description": "A simple Koa Middle Layer for locating IP address and then add to request",
+  "main": "index.js",
+  "keywords": [
+    "koa",
+    "middleware",
+    "location",
+    "ip"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Hao Luo",
+  "license": "ISC"
+}
