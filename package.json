@@ -1,7 +1,8 @@
 {
-  "name": "geolocator-ip",
+  "name": "koa-geolocator-ip",
   "version": "0.1.0",
-  "description": "A simple Koa Middle Layer for locating IP address and then add to request",
+  "description": "A simple Koa Middleware for locating IP address and then adding to request",
+  "repository": "howlowck/koa-geolocator-ip",
   "main": "index.js",
   "keywords": [
     "koa",
@@ -13,5 +14,16 @@
     "index.js"
   ],
   "author": "Hao Luo",
-  "license": "ISC"
+  "devDependencies": {
+    "koa": "*"
+  },
+  "scripts": {
+    "dev": "node example.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "co-request": "^1.0.0",
+    "ip": "^1.1.0",
+    "url-pattern": "^1.0.1"
+  }
 }
