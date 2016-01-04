@@ -1,6 +1,6 @@
 {
   "name": "koa-geolocator-ip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple Koa Middleware for locating IP address and then adding to request",
   "repository": "howlowck/koa-geolocator-ip",
   "main": "index.js",

@@ -3,7 +3,12 @@ var ipLocator = require('./');
 var app = koa();
 
 app.use(ipLocator({
-  blacklist: ['/']
+  blacklist: ['/', '/api/users(/:id)'], //array of blacklist
+  /* transformer: function (json) {
+      return {
+        city: json.city
+      };
+  } */
 }));
 
 app.use(function *() {

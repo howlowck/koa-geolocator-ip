@@ -9,7 +9,7 @@ function isBlacklisted(url, blacklist) {
 function pathGatekeeper(options) {
   var matcherBlacklist = [],
       urlBlacklist;
-  options = options || {};
+      
   urlBlacklist = options.blacklist || [];
 
   urlBlacklist.map(function (pattern) {
