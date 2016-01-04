@@ -1,6 +1,6 @@
 # Geolocator IP Koa Middleware
 
-Using [FreeGeoIP](http://freegeoip.net/json/) to geolocate the user by request IP.  (note: there is a 10,000 request limit)
+Using [FreeGeoIP](http://freegeoip.net/json/) to geolocate the user by request IP.  (note: there is a 10,000 per hour request limit)
 
 ## Install
 ```javascript
@@ -45,7 +45,7 @@ Here is the default object you'll get from the geolocator
 
 You can set your own custom transformer to what FreeGeoIP gives you back.
 
-To set a transformer simply set it in your options.  It's a simple function that takes in the json and return the object that will be in `request.ipLocation`. 
+To set a transformer simply set it in your options.  It's a simple function that takes in the json and return the object that will be in `request.ipLocation`.
 
 ```javascript
 
